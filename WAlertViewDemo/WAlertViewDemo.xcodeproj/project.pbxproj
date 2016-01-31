@@ -66,9 +66,9 @@
 		5032E2401C5DB23A007C0A53 = {
 			isa = PBXGroup;
 			children = (
+				5032E24A1C5DB23A007C0A53 /* Products */,
 				5032E24B1C5DB23A007C0A53 /* WAlertViewDemo */,
 				5032E2651C5DB23A007C0A53 /* WAlertViewDemoTests */,
-				5032E24A1C5DB23A007C0A53 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,16 +84,16 @@
 		5032E24B1C5DB23A007C0A53 /* WAlertViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5032E24C1C5DB23A007C0A53 /* Supporting Files */,
 				5032E2711C5DB240007C0A53 /* WAlertView */,
 				5032E24F1C5DB23A007C0A53 /* AppDelegate.h */,
 				5032E2501C5DB23A007C0A53 /* AppDelegate.m */,
+				5032E2581C5DB23A007C0A53 /* Assets.xcassets */,
+				5032E25D1C5DB23A007C0A53 /* Info.plist */,
+				5032E25A1C5DB23A007C0A53 /* LaunchScreen.storyboard */,
+				5032E2551C5DB23A007C0A53 /* Main.storyboard */,
 				5032E2521C5DB23A007C0A53 /* ViewController.h */,
 				5032E2531C5DB23A007C0A53 /* ViewController.m */,
-				5032E2551C5DB23A007C0A53 /* Main.storyboard */,
-				5032E2581C5DB23A007C0A53 /* Assets.xcassets */,
-				5032E25A1C5DB23A007C0A53 /* LaunchScreen.storyboard */,
-				5032E25D1C5DB23A007C0A53 /* Info.plist */,
-				5032E24C1C5DB23A007C0A53 /* Supporting Files */,
 			);
 			path = WAlertViewDemo;
 			sourceTree = "<group>";
@@ -103,14 +103,14 @@
 			children = (
 				5032E24D1C5DB23A007C0A53 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		5032E2651C5DB23A007C0A53 /* WAlertViewDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				5032E2661C5DB23A007C0A53 /* WAlertViewDemoTests.m */,
 				5032E2681C5DB23A007C0A53 /* Info.plist */,
+				5032E2661C5DB23A007C0A53 /* WAlertViewDemoTests.m */,
 			);
 			path = WAlertViewDemoTests;
 			sourceTree = "<group>";
@@ -121,7 +121,7 @@
 				5032E2721C5DB31B007C0A53 /* WAlertView.h */,
 				5032E2731C5DB31B007C0A53 /* WAlertView.m */,
 			);
-			name = WAlertView;
+			path = WAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +256,7 @@
 				5032E2561C5DB23A007C0A53 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		5032E25A1C5DB23A007C0A53 /* LaunchScreen.storyboard */ = {
@@ -264,6 +265,7 @@
 				5032E25B1C5DB23A007C0A53 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -416,6 +418,7 @@
 				5032E26D1C5DB23A007C0A53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5032E26E1C5DB23A007C0A53 /* Build configuration list for PBXNativeTarget "WAlertViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +427,7 @@
 				5032E2701C5DB23A007C0A53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
